@@ -21,7 +21,7 @@ This project showcases a **real-time human detection system** using a webcam and
 
 ---
 ## **Demo Video**
-<video src="https://drive.google.com/uc?id=1vuJ7HEpXFULmdWSzAygJwXPG-kVcWIYq" controls width="600"></video>
+[Click here to watch the demo video](https://drive.google.com/file/d/1vuJ7HEpXFULmdWSzAygJwXPG-kVcWIYq/view?usp=sharing)
 
 ## **Demonstration Scenario for Real Time**
 This demonstrates that when deadline miss occur, the system will automatically adjust frame rates to meet the deadline to maintain the system.

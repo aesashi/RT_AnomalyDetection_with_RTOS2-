@@ -49,6 +49,11 @@ This demonstrates that when deadline miss occur, the system will automatically a
 ---
 
 ## **How to Run**
+Set up ROS2 first then follow below command.
+
 1. **Run the Camera Node**:
    ```bash
    ros2 run yolo_detection camera_node
+1. **Run the Detection Node**:
+   ```bash
+   ros2 run yolo_detection detection_node

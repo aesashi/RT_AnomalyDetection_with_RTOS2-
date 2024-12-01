@@ -33,7 +33,6 @@ This demonstrates that when deadline miss occur, the system will automatically a
 ### **2. Deadline Miss Handling**
 - If the frame processing exceeds the 100ms deadline:
   - **Frame Rate**: Reduced to 15 FPS.
-  - **Deadline**: Increased to 150ms to stabilize the system.
 
 ### **3. Scenario Walkthrough**
 - **First 10 seconds**: The system operates at 30 FPS with a 100ms deadline.
@@ -42,7 +41,7 @@ This demonstrates that when deadline miss occur, the system will automatically a
   - Detects deadline misses due to increased workload.
 - **Deadline Miss**:
   - Reduces frame rate to 15 FPS.
-  - Adjusts the deadline to 150ms.
+
 - **System Recovery**:
   - Gradually restores frame rate to 30 FPS and deadline to 100ms once deadlines are consistently met.
 

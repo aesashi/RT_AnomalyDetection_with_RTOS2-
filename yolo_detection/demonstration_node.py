@@ -96,7 +96,7 @@ class DemonstrationNode(Node):
             self.get_logger().warning("🔴 High Frame Rate: 60 FPS, 100ms deadline (Expect deadline violations)")
         elif elapsed_demo_time >= 20:  # After 10 seconds: Reduce frame rate
             self.current_frame_rate = 15  # Decrease frame rate to 15 FPS
-            self.deadline_ms = 150  # Increase deadline to 150ms
+            self.deadline_ms = 100  # Increase deadline to 150ms
             self.get_logger().info("🟢 Adjusted: 15 FPS, 150ms deadline")
 
     def publish_marker(self, class_name, x1, y1, x2, y2, confidence):
